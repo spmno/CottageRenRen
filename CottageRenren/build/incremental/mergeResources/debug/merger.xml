@@ -135,6 +135,8 @@
                 </string>
                 <string name="app_name" >CottageRenren
                 </string>
+                <string name="title_activity_auth" >AuthActivity
+                </string>
                 <string name="hello_world" >Hello world!
                 </string>
                 <string name="title_activity_app_base" >AppBase
@@ -143,6 +145,11 @@
             <file
                 path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\values\styles.xml"
                 qualifiers="" >
+
+                <style
+                    name="top_navbar"
+                    parent="android:Widget.ActionBar.TabBar" >
+                </style>
 
                 <style
                     name="AppBaseTheme"
@@ -190,6 +197,46 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                name="auth"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\menu\auth.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="activity_auth"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\layout\activity_auth.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="v5_0_1_flipper_head_blue_background"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_flipper_head_blue_background.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_0_1_flipper_head_title_wrapper_background"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_flipper_head_title_wrapper_background.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_0_1_flipper_head_back"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_flipper_head_back.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_0_1_flipper_head_title_wrapper_pressed"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_flipper_head_title_wrapper_pressed.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="top_navbar"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\layout\top_navbar.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="v5_0_1_flipper_head_separator"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_flipper_head_separator.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
         </source>
         <source path="E:\code\Android\CottageRenrenProject\CottageRenren\build\res\rs\debug" />
     </dataSet>

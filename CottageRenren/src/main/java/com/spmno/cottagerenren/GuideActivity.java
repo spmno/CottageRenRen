@@ -1,5 +1,6 @@
 package com.spmno.cottagerenren;
 
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.app.Activity;
@@ -88,6 +89,9 @@ public class GuideActivity extends AppBaseActivity implements View.OnClickListen
                 break;
             }
             case R.id.login_button: {
+                Intent intent = new Intent(GuideActivity.this, AuthActivity.class);
+                startActivity(intent);
+                GuideActivity.this.finish();
                 break;
             }
         }

@@ -14,6 +14,8 @@
         </activity>
         <activity android:label="@string/title_activity_guide" android:name="com.spmno.cottagerenren.GuideActivity">
         </activity>
+        <activity android:label="@string/title_activity_auth" android:name="com.spmno.cottagerenren.AuthActivity">
+        </activity>
     </application>
 
 </manifest>

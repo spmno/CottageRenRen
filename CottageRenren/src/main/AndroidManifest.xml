@@ -9,7 +9,7 @@
         android:targetSdkVersion="16" />
 
     <application
-        android:name=".RenrenApplication"
+        android:name="com.spmno.cottagerenren.RenrenApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -30,6 +30,10 @@
         <activity
             android:name="com.spmno.cottagerenren.GuideActivity"
             android:label="@string/title_activity_guide" >
+        </activity>
+        <activity
+            android:name="com.spmno.cottagerenren.AuthActivity"
+            android:label="@string/title_activity_auth" >
         </activity>
     </application>
 

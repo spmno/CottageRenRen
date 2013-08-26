@@ -9,6 +9,7 @@
     <string name="app_name">CottageRenren</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_app_base">AppBase</string>
+    <string name="title_activity_auth">AuthActivity</string>
     <string name="title_activity_guide">GuideActivity</string>
     <!-- From: file:/E:/code/Android/CottageRenrenProject/CottageRenren/src/main/res/values/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme.Light">
@@ -22,5 +23,7 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
+
+    <style name="top_navbar" parent="android:Widget.ActionBar.TabBar"></style>
 
 </resources>
