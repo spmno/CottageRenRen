@@ -16,6 +16,8 @@
         </activity>
         <activity android:label="@string/title_activity_auth" android:name="com.spmno.cottagerenren.AuthActivity">
         </activity>
+        <activity android:label="@string/title_activity_left_panel" android:name="com.spmno.cottagerenren.LeftPanelActivity">
+        </activity>
     </application>
 
 </manifest>

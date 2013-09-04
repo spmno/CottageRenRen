@@ -8,4 +8,29 @@
     <string name="title_activity_guide">GuideActivity</string>
     <string name="title_activity_auth">AuthActivity</string>
 
+    <string-array name="left_panel_group_names">
+        <item>常用</item>
+        <item>更多</item>
+        <item>操作</item>
+    </string-array>
+    <string-array name="left_panel_first_group_names">
+        <item>新鲜事</item>
+        <item>消息</item>
+        <item>聊天</item>
+        <item>好友</item>
+        <item>找人</item>
+    </string-array>
+    <string-array name="left_panel_second_group_names">
+        <item>附近</item>
+        <item>公共主页</item>
+        <item>热门分享</item>
+        <item>应用与游戏</item>
+    </string-array>
+    <string-array name="left_panel_third_group_names">
+        <item>选项</item>
+        <item>注销登录</item>
+    </string-array>
+
+    <string name="title_activity_left_panel">LeftPanelActivity</string>
+
 </resources>

@@ -69,6 +69,61 @@
                 qualifiers="hdpi"
                 type="drawable" />
             <file
+                name="v5_0_1_desktop_list_item"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_desktop_list_item.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_0_1_flipper_head_back"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_flipper_head_back.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_0_1_flipper_head_blue_background"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_flipper_head_blue_background.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_0_1_flipper_head_popup_menu_black_divider"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_flipper_head_popup_menu_black_divider.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_0_1_flipper_head_separator"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_flipper_head_separator.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_0_1_flipper_head_title_wrapper_background"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_flipper_head_title_wrapper_background.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_0_1_flipper_head_title_wrapper_pressed"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_flipper_head_title_wrapper_pressed.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_0_1_tabsbar_background"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_tabsbar_background.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_0_1_tabsbar_bg"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_tabsbar_bg.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_0_1_tabsbar_selected_bg"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_tabsbar_selected_bg.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_0_1_widget_default_head"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_widget_default_head.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
                 name="welcome"
                 path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\welcome.jpg"
                 qualifiers="hdpi"
@@ -94,8 +149,18 @@
                 qualifiers=""
                 type="layout" />
             <file
+                name="activity_auth"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\layout\activity_auth.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="activity_guide"
                 path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\layout\activity_guide.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_left_panel"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\layout\activity_left_panel.xml"
                 qualifiers=""
                 type="layout" />
             <file
@@ -104,13 +169,28 @@
                 qualifiers=""
                 type="layout" />
             <file
+                name="top_navbar"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\layout\top_navbar.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="app_base"
                 path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\menu\app_base.xml"
                 qualifiers=""
                 type="menu" />
             <file
+                name="auth"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\menu\auth.xml"
+                qualifiers=""
+                type="menu" />
+            <file
                 name="guide"
                 path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\menu\guide.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="left_panel"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\menu\left_panel.xml"
                 qualifiers=""
                 type="menu" />
             <file
@@ -129,18 +209,76 @@
             <file
                 path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\values\strings.xml"
                 qualifiers="" >
+                <string-array name="left_panel_first_group_names" >
+                    <item>
+新鲜事
+                    </item>
+                    <item>
+消息
+                    </item>
+                    <item>
+聊天
+                    </item>
+                    <item>
+好友
+                    </item>
+                    <item>
+找人
+                    </item>
+                </string-array>
+
                 <string name="title_activity_guide" >GuideActivity
                 </string>
                 <string name="action_settings" >Settings
                 </string>
                 <string name="app_name" >CottageRenren
                 </string>
+                <string name="title_activity_left_panel" >LeftPanelActivity
+                </string>
+
+                <string-array name="left_panel_group_names" >
+                    <item>
+常用
+                    </item>
+                    <item>
+更多
+                    </item>
+                    <item>
+操作
+                    </item>
+                </string-array>
+
                 <string name="title_activity_auth" >AuthActivity
                 </string>
                 <string name="hello_world" >Hello world!
                 </string>
+
+                <string-array name="left_panel_third_group_names" >
+                    <item>
+选项
+                    </item>
+                    <item>
+注销登录
+                    </item>
+                </string-array>
+
                 <string name="title_activity_app_base" >AppBase
                 </string>
+
+                <string-array name="left_panel_second_group_names" >
+                    <item>
+附近
+                    </item>
+                    <item>
+公共主页
+                    </item>
+                    <item>
+热门分享
+                    </item>
+                    <item>
+应用与游戏
+                    </item>
+                </string-array>
             </file>
             <file
                 path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\values\styles.xml"
@@ -198,43 +336,173 @@
                 </style>
             </file>
             <file
-                name="auth"
-                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\menu\auth.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                name="activity_auth"
-                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\layout\activity_auth.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="v5_0_1_flipper_head_blue_background"
-                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_flipper_head_blue_background.9.png"
+                name="v5_2_0_desktop_list_hot"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_2_0_desktop_list_hot.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
-                name="v5_0_1_flipper_head_title_wrapper_background"
-                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_flipper_head_title_wrapper_background.xml"
+                name="v5_2_1_desktop_list_chat"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_2_1_desktop_list_chat.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
-                name="v5_0_1_flipper_head_back"
-                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_flipper_head_back.png"
+                name="left_panel_item_friends_icon_selector"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\left_panel_item_friends_icon_selector.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
-                name="v5_0_1_flipper_head_title_wrapper_pressed"
-                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_flipper_head_title_wrapper_pressed.9.png"
+                name="v5_2_1_desktop_list_location"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_2_1_desktop_list_location.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
-                name="top_navbar"
-                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\layout\top_navbar.xml"
-                qualifiers=""
-                type="layout" />
+                name="v5_2_1_desktop_list_log_out_blue"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_2_1_desktop_list_log_out_blue.png"
+                qualifiers="hdpi"
+                type="drawable" />
             <file
-                name="v5_0_1_flipper_head_separator"
-                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_flipper_head_separator.9.png"
+                name="v5_2_1_desktop_list_page"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_2_1_desktop_list_page.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="left_panel_item_chat_icon_selector"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\left_panel_item_chat_icon_selector.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_2_1_desktop_list_message"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_2_1_desktop_list_message.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_2_1_desktop_list_search_blue"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_2_1_desktop_list_search_blue.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_0_1_newsfeed_popupwindow_type_all_selected_icon"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_newsfeed_popupwindow_type_all_selected_icon.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="left_panel_item_settings_icon_selector"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\left_panel_item_settings_icon_selector.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_2_1_desktop_list_log_out"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_2_1_desktop_list_log_out.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="left_panel_item_search_icon_selector"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\left_panel_item_search_icon_selector.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_0_1_desktop_list_message"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_desktop_list_message.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_2_1_desktop_list_message_blue"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_2_1_desktop_list_message_blue.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_2_1_desktop_list_friends"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_2_1_desktop_list_friends.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_2_1_desktop_list_apps_center_blue"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_2_1_desktop_list_apps_center_blue.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_2_1_desktop_list_search"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_2_1_desktop_list_search.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_2_0_desktop_list_hot_blue"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_2_0_desktop_list_hot_blue.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_2_1_desktop_list_page_blue"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_2_1_desktop_list_page_blue.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="left_panel_item_mainpage_icon_selector"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\left_panel_item_mainpage_icon_selector.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="left_panel_item_message_icon_selector"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\left_panel_item_message_icon_selector.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="left_panel_item_location_icon_selector"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\left_panel_item_location_icon_selector.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="left_panel_item_newsfeed_icon_selector"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\left_panel_item_newsfeed_icon_selector.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_2_1_desktop_list_location_blue"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_2_1_desktop_list_location_blue.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_2_1_desktop_list_friends_blue"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_2_1_desktop_list_friends_blue.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="left_panel_item_apps_icon_selector"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\left_panel_item_apps_icon_selector.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_0_1_newsfeed_popupwindow_type_all_icon"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_0_1_newsfeed_popupwindow_type_all_icon.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="left_panel_item_layout_icon_selector"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\left_panel_item_layout_icon_selector.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_2_1_desktop_list_chat_blue"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_2_1_desktop_list_chat_blue.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_2_1_desktop_list_settings"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_2_1_desktop_list_settings.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="left_panel_item_hot_icon_selector"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\left_panel_item_hot_icon_selector.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_2_1_desktop_list_apps_center"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_2_1_desktop_list_apps_center.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="v5_2_1_desktop_list_settings_blue"
+                path="E:\code\Android\CottageRenrenProject\CottageRenren\src\main\res\drawable-hdpi\v5_2_1_desktop_list_settings_blue.png"
                 qualifiers="hdpi"
                 type="drawable" />
         </source>

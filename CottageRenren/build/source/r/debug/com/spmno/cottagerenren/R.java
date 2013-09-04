@@ -13,14 +13,22 @@ public final class R {
         public static final int guide_welcome_fade_in_scale=0x7f040001;
         public static final int guide_welcome_fade_out=0x7f040002;
     }
+    public static final class array {
+        /**  From: file:/E:/code/Android/CottageRenrenProject/CottageRenren/src/main/res/values/strings.xml 
+         */
+        public static final int left_panel_first_group_names=0x7f050000;
+        public static final int left_panel_group_names=0x7f050001;
+        public static final int left_panel_second_group_names=0x7f050002;
+        public static final int left_panel_third_group_names=0x7f050003;
+    }
     public static final class attr {
     }
     public static final class dimen {
         /**  From: file:/E:/code/Android/CottageRenrenProject/CottageRenren/src/main/res/values/dimens.xml 
  From: file:/E:/code/Android/CottageRenrenProject/CottageRenren/src/main/res/values-sw720dp-land/dimens.xml 
          */
-        public static final int activity_horizontal_margin=0x7f050000;
-        public static final int activity_vertical_margin=0x7f050001;
+        public static final int activity_horizontal_margin=0x7f060000;
+        public static final int activity_vertical_margin=0x7f060001;
     }
     public static final class drawable {
         public static final int guide_black_default=0x7f020000;
@@ -33,50 +41,96 @@ public final class R {
         public static final int guide_pic2=0x7f020007;
         public static final int guide_pic3=0x7f020008;
         public static final int ic_launcher=0x7f020009;
-        public static final int v5_0_1_flipper_head_back=0x7f02000a;
-        public static final int v5_0_1_flipper_head_blue_background=0x7f02000b;
-        public static final int v5_0_1_flipper_head_separator=0x7f02000c;
-        public static final int v5_0_1_flipper_head_title_wrapper_background=0x7f02000d;
-        public static final int v5_0_1_flipper_head_title_wrapper_pressed=0x7f02000e;
-        public static final int welcome=0x7f02000f;
+        public static final int left_panel_item_apps_icon_selector=0x7f02000a;
+        public static final int left_panel_item_chat_icon_selector=0x7f02000b;
+        public static final int left_panel_item_friends_icon_selector=0x7f02000c;
+        public static final int left_panel_item_hot_icon_selector=0x7f02000d;
+        public static final int left_panel_item_layout_icon_selector=0x7f02000e;
+        public static final int left_panel_item_location_icon_selector=0x7f02000f;
+        public static final int left_panel_item_mainpage_icon_selector=0x7f020010;
+        public static final int left_panel_item_message_icon_selector=0x7f020011;
+        public static final int left_panel_item_newsfeed_icon_selector=0x7f020012;
+        public static final int left_panel_item_search_icon_selector=0x7f020013;
+        public static final int left_panel_item_settings_icon_selector=0x7f020014;
+        public static final int v5_0_1_desktop_list_item=0x7f020015;
+        public static final int v5_0_1_desktop_list_message=0x7f020016;
+        public static final int v5_0_1_flipper_head_back=0x7f020017;
+        public static final int v5_0_1_flipper_head_blue_background=0x7f020018;
+        public static final int v5_0_1_flipper_head_popup_menu_black_divider=0x7f020019;
+        public static final int v5_0_1_flipper_head_separator=0x7f02001a;
+        public static final int v5_0_1_flipper_head_title_wrapper_background=0x7f02001b;
+        public static final int v5_0_1_flipper_head_title_wrapper_pressed=0x7f02001c;
+        public static final int v5_0_1_newsfeed_popupwindow_type_all_icon=0x7f02001d;
+        public static final int v5_0_1_newsfeed_popupwindow_type_all_selected_icon=0x7f02001e;
+        public static final int v5_0_1_tabsbar_background=0x7f02001f;
+        public static final int v5_0_1_tabsbar_bg=0x7f020020;
+        public static final int v5_0_1_tabsbar_selected_bg=0x7f020021;
+        public static final int v5_0_1_widget_default_head=0x7f020022;
+        public static final int v5_2_0_desktop_list_hot=0x7f020023;
+        public static final int v5_2_0_desktop_list_hot_blue=0x7f020024;
+        public static final int v5_2_1_desktop_list_apps_center=0x7f020025;
+        public static final int v5_2_1_desktop_list_apps_center_blue=0x7f020026;
+        public static final int v5_2_1_desktop_list_chat=0x7f020027;
+        public static final int v5_2_1_desktop_list_chat_blue=0x7f020028;
+        public static final int v5_2_1_desktop_list_friends=0x7f020029;
+        public static final int v5_2_1_desktop_list_friends_blue=0x7f02002a;
+        public static final int v5_2_1_desktop_list_location=0x7f02002b;
+        public static final int v5_2_1_desktop_list_location_blue=0x7f02002c;
+        public static final int v5_2_1_desktop_list_log_out=0x7f02002d;
+        public static final int v5_2_1_desktop_list_log_out_blue=0x7f02002e;
+        public static final int v5_2_1_desktop_list_message=0x7f02002f;
+        public static final int v5_2_1_desktop_list_message_blue=0x7f020030;
+        public static final int v5_2_1_desktop_list_page=0x7f020031;
+        public static final int v5_2_1_desktop_list_page_blue=0x7f020032;
+        public static final int v5_2_1_desktop_list_search=0x7f020033;
+        public static final int v5_2_1_desktop_list_search_blue=0x7f020034;
+        public static final int v5_2_1_desktop_list_settings=0x7f020035;
+        public static final int v5_2_1_desktop_list_settings_blue=0x7f020036;
+        public static final int welcome=0x7f020037;
     }
     public static final class id {
-        public static final int action_settings=0x7f09000c;
-        public static final int guide_content=0x7f090007;
-        public static final int guide_image=0x7f090002;
-        public static final int iv_back=0x7f090009;
-        public static final int iv_line_separator=0x7f09000a;
-        public static final int ll_back=0x7f090008;
-        public static final int ll_bottom_action_bar=0x7f090003;
-        public static final int login_button=0x7f090006;
-        public static final int look_people_i_know=0x7f090005;
-        public static final int register_button=0x7f090004;
-        public static final int rl_top_navbar=0x7f090000;
-        public static final int tv_title=0x7f09000b;
-        public static final int wv_auth=0x7f090001;
+        public static final int action_settings=0x7f0a000f;
+        public static final int elv_list_view=0x7f0a000a;
+        public static final int guide_content=0x7f0a0007;
+        public static final int guide_image=0x7f0a0002;
+        public static final int iv_back=0x7f0a000c;
+        public static final int iv_line_separator=0x7f0a000d;
+        public static final int iv_user_icon=0x7f0a0008;
+        public static final int ll_back=0x7f0a000b;
+        public static final int ll_bottom_action_bar=0x7f0a0003;
+        public static final int login_button=0x7f0a0006;
+        public static final int look_people_i_know=0x7f0a0005;
+        public static final int register_button=0x7f0a0004;
+        public static final int rl_top_navbar=0x7f0a0000;
+        public static final int tv_nickname=0x7f0a0009;
+        public static final int tv_title=0x7f0a000e;
+        public static final int wv_auth=0x7f0a0001;
     }
     public static final class layout {
         public static final int activity_app_base=0x7f030000;
         public static final int activity_auth=0x7f030001;
         public static final int activity_guide=0x7f030002;
-        public static final int activity_welcome=0x7f030003;
-        public static final int top_navbar=0x7f030004;
+        public static final int activity_left_panel=0x7f030003;
+        public static final int activity_welcome=0x7f030004;
+        public static final int top_navbar=0x7f030005;
     }
     public static final class menu {
-        public static final int app_base=0x7f080000;
-        public static final int auth=0x7f080001;
-        public static final int guide=0x7f080002;
-        public static final int welcome=0x7f080003;
+        public static final int app_base=0x7f090000;
+        public static final int auth=0x7f090001;
+        public static final int guide=0x7f090002;
+        public static final int left_panel=0x7f090003;
+        public static final int welcome=0x7f090004;
     }
     public static final class string {
         /**  From: file:/E:/code/Android/CottageRenrenProject/CottageRenren/src/main/res/values/strings.xml 
          */
-        public static final int action_settings=0x7f060000;
-        public static final int app_name=0x7f060001;
-        public static final int hello_world=0x7f060002;
-        public static final int title_activity_app_base=0x7f060003;
-        public static final int title_activity_auth=0x7f060004;
-        public static final int title_activity_guide=0x7f060005;
+        public static final int action_settings=0x7f070000;
+        public static final int app_name=0x7f070001;
+        public static final int hello_world=0x7f070002;
+        public static final int title_activity_app_base=0x7f070003;
+        public static final int title_activity_auth=0x7f070004;
+        public static final int title_activity_guide=0x7f070005;
+        public static final int title_activity_left_panel=0x7f070006;
     }
     public static final class style {
         /**  From: file:/E:/code/Android/CottageRenrenProject/CottageRenren/src/main/res/values/styles.xml 
@@ -90,10 +144,10 @@ public final class R {
  From: file:/E:/code/Android/CottageRenrenProject/CottageRenren/src/main/res/values-v14/styles.xml 
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070001;
-        public static final int top_navbar=0x7f070002;
+        public static final int AppTheme=0x7f080001;
+        public static final int top_navbar=0x7f080002;
     }
 }

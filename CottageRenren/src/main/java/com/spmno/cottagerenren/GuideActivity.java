@@ -89,7 +89,7 @@ public class GuideActivity extends AppBaseActivity implements View.OnClickListen
                 break;
             }
             case R.id.login_button: {
-                Intent intent = new Intent(GuideActivity.this, AuthActivity.class);
+                Intent intent = new Intent(GuideActivity.this, LeftPanelActivity.class);
                 startActivity(intent);
                 GuideActivity.this.finish();
                 break;
