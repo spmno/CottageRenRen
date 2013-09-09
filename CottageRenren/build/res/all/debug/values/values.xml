@@ -24,9 +24,37 @@
         <item>选项</item>
         <item>注销登录</item>
     </string-array>
+    <!-- From: file:/E:/code/Android/CottageRenrenProject/CottageRenren/src/main/res/values/attrs.xml -->
+    <declare-styleable name="SlidingMenu">
+        <attr name="mode">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="viewAbove" format="reference" />
+        <attr name="viewBehind" format="reference" />
+        <attr name="behindOffset" format="dimension" />
+        <attr name="behindWidth" format="dimension" />
+        <attr name="behindScrollScale" format="float" />
+        <attr name="touchModeAbove">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+        </attr>
+        <attr name="touchModeBehind">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+        </attr>
+        <attr name="shadowDrawable" format="reference" />
+        <attr name="shadowWidth" format="dimension" />
+        <attr name="fadeEnabled" format="boolean" />
+        <attr name="fadeDegree" format="float" />
+        <attr name="selectorEnabled" format="boolean" />
+        <attr name="selectorDrawable" format="reference" />
+    </declare-styleable>
     <!-- From: file:/E:/code/Android/CottageRenrenProject/CottageRenren/src/main/res/values/dimens.xml -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/E:/code/Android/CottageRenrenProject/CottageRenren/src/main/res/values/ids.xml -->
+    <item name="selected_view" type="id"/>
     <!-- From: file:/E:/code/Android/CottageRenrenProject/CottageRenren/src/main/res/values/strings.xml -->
     <string name="action_settings">Settings</string>
     <string name="app_name">CottageRenren</string>
@@ -35,6 +63,7 @@
     <string name="title_activity_auth">AuthActivity</string>
     <string name="title_activity_guide">GuideActivity</string>
     <string name="title_activity_left_panel">LeftPanelActivity</string>
+    <string name="title_activity_main_page">MainPageActivity</string>
     <!-- From: file:/E:/code/Android/CottageRenrenProject/CottageRenren/src/main/res/values/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

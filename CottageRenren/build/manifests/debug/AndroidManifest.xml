@@ -18,6 +18,8 @@
         </activity>
         <activity android:label="@string/title_activity_left_panel" android:name="com.spmno.cottagerenren.LeftPanelActivity">
         </activity>
+        <activity android:label="@string/title_activity_main_page" android:name="com.spmno.cottagerenren.MainPageActivity">
+        </activity>
     </application>
 
 </manifest>

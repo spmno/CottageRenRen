@@ -39,6 +39,10 @@
             android:name="com.spmno.cottagerenren.LeftPanelActivity"
             android:label="@string/title_activity_left_panel" >
         </activity>
+        <activity
+            android:name="com.spmno.cottagerenren.MainPageActivity"
+            android:label="@string/title_activity_main_page" >
+        </activity>
     </application>
 
 </manifest>

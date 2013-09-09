@@ -1,1 +1,3 @@
 include ':CottageRenren'
+include ':libraries:SlidingMenu:library'
+project(':libraries:SlidingMenu:library').projectDir = new File('Libraries/SlidingMenu/library')

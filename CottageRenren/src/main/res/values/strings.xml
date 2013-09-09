@@ -32,5 +32,6 @@
     </string-array>
 
     <string name="title_activity_left_panel">LeftPanelActivity</string>
+    <string name="title_activity_main_page">MainPageActivity</string>
 
 </resources>
